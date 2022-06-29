@@ -1,0 +1,31 @@
+// colors
+// TO DO
+// spacings
+$standard-spacing: 10px;
+// grays
+$gray-1: #f8f9fa;
+$gray-2: #d1d2d4;
+$gray-3: #adb1b5;
+$gray-4: #343a40;
+$gray-5: #212529;
+$black: #060606;
+// mapping variables
+$grays: ( "gray-1": $gray-1, "gray-2": $gray-2, "gray-3": $gray-3, "gray-4": $gray-4, "gray-5": $gray-5, "world-best-gray": #cccccc, "black": $black, );
+$primary: #0000ff;
+$secondary: #add8e6;
+$success: #008000;
+$info: #000000;
+$warning: #ffa500;
+$danger: #ff0000;
+$felix: #ffc0cb;
+// mapping variables
+$color_main: ( "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "felix": $felix, );
+$btn-primary: #0000ff;
+$btn-secondary: #add8e6;
+$btn-success: #008000;
+$btn-info: #000000;
+$btn-warning: #ffa500;
+$btn-danger: #ff0000;
+$btn-felix: #ffc0cb;
+// mapping variables
+$color: ( "primary": $btn-primary, "secondary": $btn-secondary, "success": $btn-success, "info": $btn-info, "warning": $btn-warning, "danger": $btn-danger, "felix": $btn-felix, );

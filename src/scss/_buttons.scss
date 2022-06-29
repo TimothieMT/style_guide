@@ -1,0 +1,8 @@
+@use "/src/scss/main.scss";
+@mixin mybutton($color) {
+    background-color: $color; // button hintergrund
+    color: lighten($color, 80%); // button text farbe
+    &:hover {
+        background-color: darken($color, 10%); // hover hintergrund
+    }
+}

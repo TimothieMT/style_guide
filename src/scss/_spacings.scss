@@ -1,0 +1,12 @@
+
+@for $i from 1 through 5 {
+
+    // wird x mal ausgeführt
+    .p-#{$i} {
+        padding: $standard-spacing * $i;
+    }
+
+    .m-#{$i} {
+        margin: $standard-spacing * $i;
+    }
+}

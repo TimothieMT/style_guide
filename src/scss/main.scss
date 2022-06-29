@@ -1,0 +1,29 @@
+@import "variables";
+@import "geometry";
+@import "buttons";
+@each $gray,
+$i in $grays {
+    .bg {
+        &-#{$gray} {
+            background-color: $i;
+        }
+    }
+}
+
+@each $print,
+$i in $color_main {
+    .bg {
+        &-#{$print} {
+            background-color: $i;
+        }
+    }
+}
+
+@each $button,
+$i in $color {
+    .btn {
+        &-#{$button} {
+            @include mybutton($i);
+        }
+    }
+}
