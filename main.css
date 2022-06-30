@@ -18,6 +18,25 @@
   text-decoration: none; }
 
 @use "/src/scss/main.scss";
+.wrapper {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  height: 200px;
+  width: 300px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+.dark-mode {
+  background-color: black; }
+  .dark-mode i {
+    color: white; }
+
+i {
+  font-size: 60px; }
+
 .bg-gray-1 {
   background-color: #f8f9fa; }
 

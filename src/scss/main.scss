@@ -1,6 +1,7 @@
 @import "variables";
 @import "geometry";
 @import "buttons";
+@import "backgrounds";
 @each $gray,
 $i in $grays {
     .bg {
